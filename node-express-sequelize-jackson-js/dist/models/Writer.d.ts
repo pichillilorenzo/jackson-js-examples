@@ -7,7 +7,7 @@ export declare class Writer extends Sequelize.Model {
     biography: string;
     image: string;
     books: Book[];
-    static init(sequelize: any): any;
+    static init(sequelize: any): void;
     static associate(): void;
     static buildFromJson(writer: Writer): Writer;
     get fullname(): string;

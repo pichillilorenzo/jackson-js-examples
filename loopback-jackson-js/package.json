@@ -54,7 +54,7 @@
     "@loopback/rest-explorer": "^2.1.2",
     "@loopback/service-proxy": "^2.1.2",
     "tslib": "^1.10.0",
-    "jackson-js": "^1.0.0",
+    "jackson-js": "^1.1.0",
     "faker": "^4.1.0"
   },
   "devDependencies": {

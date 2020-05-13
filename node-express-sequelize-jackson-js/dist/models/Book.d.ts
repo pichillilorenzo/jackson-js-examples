@@ -6,7 +6,7 @@ export declare class Book extends Sequelize.Model {
     cover: string;
     writer: Writer;
     price: number;
-    static init(sequelize: any): any;
+    static init(sequelize: any): void;
     static buildFromJson(book: Book): Book;
     static associate(): void;
     getWriter(): Writer;
